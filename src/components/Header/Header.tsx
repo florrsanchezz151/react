@@ -11,11 +11,11 @@ const Header = () => {
       <>
       <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-              <Navbar.Brand onClick={() => navigate('/')}>React-Bootstrap</Navbar.Brand>
+              <Navbar.Brand onClick={() => navigate('/')}>El buen Sabor</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
-                      <Nav.Link onClick={() => navigate ('/')}>Home</Nav.Link>
+                      <Nav.Link onClick={() => navigate ('/home')}>Home</Nav.Link>
                       <Nav.Link onClick={() => navigate ('/componentes')}>Componentes</Nav.Link>
                       <Nav.Link onClick={() => navigate ('/administracion')}>Administracion</Nav.Link>
                      

@@ -8,7 +8,7 @@ const AppRoutes: React.FC = () =>{
     
     return(
         <Routes>
-                <Route path='/' element={<HomePage/>}/>
+                <Route path='/homePage' element={<HomePage/>}/>
                 <Route path='/componentes' element={<Componentes/>}/>
                 <Route path='/administracion' element={<Administracion/>}/>
 

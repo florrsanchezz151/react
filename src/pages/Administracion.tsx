@@ -1,12 +1,12 @@
-import ProductTable from "../components/ProductTable/ProductTable"
+import RubroTable from "../components/RubroTable/RubroTable";
+
 
 const Administracion = () => {
   
 
     return (
         <>
-        <ProductTable/>
-        
+        <RubroTable/>
         </>
       );
 }
